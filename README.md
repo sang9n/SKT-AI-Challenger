@@ -1,1 +1,1 @@
-# SKT-AI-Challenger
+SKT-AI-Challenger 1기
