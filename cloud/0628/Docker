@@ -1,0 +1,14 @@
+Docker ps : 실행중인 도커 컨테이너 확인
+Docker ps -a : 예전에 실행한 컨테이너도 확인
+Docker pull <이미지> : 이미지 다운받기
+Docker images : 다운받은 이미지 확인
+Docker run hello-world : hello-world 실행 후 바로 종료됨
+Docker run -it --name demo1 ubuntu:18.04 /bin/bash : ubuntu18버전을 터미널 쉘에서 데모1이라는 이름으로 실행 시킨다(실행 후 바로 안꺼짐)
+Docker exec -it demo1 /bin/bash : 컨테이너 내부로 접속하는 커맨드
+Docker stop demo1 : 컨테이너 중단
+Docker rm demo1 : 컨테이너 삭제
+Docker rmi <이미지> : 이미지 삭제
+
+## 리눅스 환경에서 실행에 필요한 파일들은 Bin폴더 안에 있다
+## /bin/bash : 쉘 ( 윈도우 환경의 cmd와 같다 )
+## LTS : Long Term Support
