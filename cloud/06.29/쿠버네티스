@@ -1,0 +1,7 @@
+yaml : 스크립트 정리 파일 (설계도와 같다)
+[Deployment] : pod를 관리하는 단위
+Rollout : 무중단 업데이트 (동일한 컨테이너를 여러개 만들어서 업데이트)
+Scailing : 크기를 관리
+Self-healing : 응답이 없으면 컨테이너 다시 실행
+Replicas : deployment에 들어가는 pod개수
+pod : 클러스터에서 실행중인 컨테이너 집합
