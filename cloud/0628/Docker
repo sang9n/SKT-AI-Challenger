@@ -8,6 +8,7 @@ Docker exec -it demo1 /bin/bash : 컨테이너 내부로 접속하는 커맨드
 Docker stop demo1 : 컨테이너 중단
 Docker rm demo1 : 컨테이너 삭제
 Docker rmi <이미지> : 이미지 삭제
+Docker images | grep my : my가 들어가 있는 이미지 찾기 (원하는 이미지 찾는 명령어)
 
 ## 리눅스 환경에서 실행에 필요한 파일들은 Bin폴더 안에 있다
 ## /bin/bash : 쉘 ( 윈도우 환경의 cmd와 같다 )
